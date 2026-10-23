@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalu Mas Star Pilda | PR Specialist & Event Coordinator</title>
+    
+    <meta name="description" content="Portofolio Lalu Mas Star Pilda — Public Relations Specialist &amp; Event Coordinator di Mataram, NTB. Mahasiswa S1 Hubungan Internasional Universitas Mataram.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Tailwind CSS (Play CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Konfigurasi tema Tailwind (warna gold, onyx, font). Harus dimuat SETELAH CDN di atas. -->
+    <script src="js/tailwind.config.js"></script>
+
+    <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Style kustom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-softbg text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- NAVBAR -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo -->
+                <a href="#hero" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-full bg-onyx text-gold-500 flex items-center justify-center font-serif font-bold text-xl border border-gold-500/40 shadow-md group-hover:scale-105 transition-transform">
+                        L
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif font-bold text-lg text-onyx tracking-tight group-hover:text-gold-600 transition-colors">LALU MAS STAR PILDA</span>
+                        <span class="text-[10px] uppercase tracking-widest text-slate-500 font-semibold">PR & Event Coordinator</span>
+                    </div>
+                </a>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-700">
+                    <a href="#about" class="hover:text-gold-600 transition-colors py-1">About Me</a>
+                    <a href="#experience" class="hover:text-gold-600 transition-colors py-1">Experience & Portfolio</a>
+                    <a href="#skills" class="hover:text-gold-600 transition-colors py-1">Skills & Expertise</a>
+                    <a href="#contact" class="hover:text-gold-600 transition-colors py-1">Contact</a>
+                </nav>
+
+                <!-- Desktop CTA -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-onyx text-gold-400 font-medium text-xs uppercase tracking-wider hover:bg-gold-500 hover:text-onyx transition-all duration-300 shadow-md">
+                        Hire Me <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" type="button" class="text-onyx hover:text-gold-600 p-2 focus:outline-none" aria-label="Buka/tutup menu" aria-controls="mobile-menu" aria-expanded="false">
+                        <i class="fa-solid fa-bars text-2xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 pt-4 pb-6 space-y-4 shadow-xl">
+            <a href="#about" class="mobile-link block text-base font-medium text-slate-700 hover:text-gold-600">About Me</a>
+            <a href="#experience" class="mobile-link block text-base font-medium text-slate-700 hover:text-gold-600">Experience & Portfolio</a>
+            <a href="#skills" class="mobile-link block text-base font-medium text-slate-700 hover:text-gold-600">Skills & Expertise</a>
+            <a href="#contact" class="mobile-link block text-base font-medium text-slate-700 hover:text-gold-600">Contact</a>
+            <a href="#contact" class="mobile-link block w-full text-center px-5 py-3 rounded-xl bg-onyx text-gold-400 font-medium text-sm">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden bg-gradient-to-b from-white via-slate-50 to-softbg">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left / Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-700 text-xs font-semibold tracking-wider uppercase">
+                        <span class="w-2 h-2 rounded-full bg-gold-500 animate-pulse"></span>
+                        Available for Event & PR Projects
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-onyx leading-tight">
+                        Bridging Connections, <br class="hidden sm:inline">
+                        <span class="gold-gradient-text italic font-normal">Executing Flawless Events</span> & Crafting Experiences.
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                        Halo! Saya <strong class="text-onyx font-semibold">Lalu Mas Star Pilda</strong> — Public Relation Specialist & Event Coordinator berdomisili di Mataram, NTB. Ahli dalam manajemen alur acara, koordinasi vendor, serta strategi komunikasi publik yang berdampak.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-onyx text-gold-400 hover:bg-gold-500 hover:text-onyx font-semibold text-sm transition-all duration-300 shadow-lg text-center">
+                            Get in Touch <i class="fa-solid fa-paper-plane ml-2"></i>
+                        </a>
+                        <a href="#experience" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-white text-onyx border border-slate-300 hover:border-gold-500 hover:text-gold-600 font-semibold text-sm transition-all duration-300 shadow-sm text-center">
+                            View Portfolio <i class="fa-solid fa-arrow-down text-xs ml-1"></i>
+                        </a>
+                    </div>
+
+                    <!-- Quick Stats Badges -->
+                    <div class="pt-8 grid grid-cols-3 gap-4 border-t border-slate-200/80 max-w-lg mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-onyx">100%</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">Precision & Rundown</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-gold-600">80+</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">UMKM Coordinated</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-onyx">1000+</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">Audience Handled</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hero Right / Profile Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute -inset-1.5 rounded-3xl bg-gradient-to-tr from-gold-500 via-amber-300 to-onyx opacity-30 blur-lg"></div>
+                        
+                        <div class="relative bg-white rounded-3xl p-8 border border-slate-200 shadow-2xl space-y-6">
+                            <div class="flex items-center gap-4">
+                                <div class="w-16 h-16 rounded-2xl bg-onyx flex items-center justify-center text-gold-500 font-serif font-bold text-2xl border-2 border-gold-500/50 shadow-md">
+                                    LSP
+                                </div>
+                                <div>
+                                    <h3 class="font-serif text-xl font-bold text-onyx">Lalu Mas Star Pilda</h3>
+                                    <p class="text-xs text-gold-600 font-semibold tracking-wide uppercase">International Relations Student</p>
+                                    <p class="text-xs text-slate-500"><i class="fa-solid fa-location-dot text-gold-500 mr-1"></i> Mataram, NTB</p>
+                                </div>
+                            </div>
+
+                            <hr class="border-slate-100">
+
+                            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
+                                <div class="flex text-gold-500 text-xs gap-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="text-xs text-slate-600 italic leading-relaxed">
+                                    "Berkomitmen menghadirkan eksekusi acara yang sempurna, pengelolaan krisis yang efisien, serta membangun hubungan harmonis antar pihak terkait."
+                                </p>
+                            </div>
+
+                            <div class="flex items-center justify-between pt-2">
+                                <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Connect:</span>
+                                <div class="flex items-center gap-3">
+                                    <a href="https://instagram.com/l.star.boyy" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-slate-100 text-slate-700 hover:bg-gold-500 hover:text-white transition-all flex items-center justify-center text-sm">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="mailto:lalustar88@gmail.com" class="w-9 h-9 rounded-full bg-slate-100 text-slate-700 hover:bg-gold-500 hover:text-white transition-all flex items-center justify-center text-sm">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </a>
+                                    <a href="https://wa.me/6281930790012" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-slate-100 text-slate-700 hover:bg-gold-500 hover:text-white transition-all flex items-center justify-center text-sm">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="py-20 bg-white border-y border-slate-100 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-600 bg-gold-500/10 px-3 py-1 rounded-full">About Me</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-onyx">Praktisi PR & Koordinator Event Yang Proaktif</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 text-slate-600 leading-relaxed text-justify">
+                    <p class="text-base sm:text-lg text-slate-700 font-medium">
+                        Saya adalah individu yang proaktif, komunikatif, dan sangat terorganisir dengan rekam jejak langsung dalam manajemen acara, operasional lapangan, serta koordinasi tim dan mitra kerja.
+                    </p>
+                    <p>
+                        Latar belakang pendidikan saya di jurusan <strong class="text-onyx font-semibold">S1 Hubungan Internasional, Universitas Mataram</strong> membentuk sudut pandang strategis dalam membangun diplomasi publik, komunikasi persuasif, serta negosiasi lintas pihak yang sangat relevan di dunia Public Relations dan Event Organizing.
+                    </p>
+                    <p>
+                        Berpengalaman mengeksekusi perencanaan event skala kecil hingga sedang, mengelola alur rundown yang presisi, serta menyelesaikan kendala teknis secara cepat dan efisien. Saya terbiasa bekerja dengan target, berorientasi pada detail, dan mampu menjaga ketenangan dalam situasi bertekanan tinggi.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-circle-check text-gold-500 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="font-semibold text-onyx text-sm">Crisis & Risk Control</h4>
+                                <p class="text-xs text-slate-500">Penyelesaian kendala teknis lapangan secara cepat dan tepat.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-circle-check text-gold-500 text-lg mt-0.5"></i>
+                            <div>
+                                <h4 class="font-semibold text-onyx text-sm">Vendor Relations</h4>
+                                <p class="text-xs text-slate-500">Sinergi profesional dengan katering, dekorasi, hingga pengisi acara.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 space-y-4">
+                    
+                    <div class="p-6 rounded-2xl bg-softbg border border-slate-200 hover:border-gold-500/50 transition-colors shadow-sm">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-onyx text-gold-500 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Pendidikan Akhir</span>
+                                <h3 class="font-serif font-bold text-lg text-onyx">S1 Hubungan Internasional</h3>
+                                <p class="text-xs text-slate-600 font-medium">Universitas Mataram (2023 – Sekarang)</p>
+                                <p class="text-xs text-slate-500 mt-1">Fakultas Hukum, Ilmu Sosial, dan Ilmu Politik</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-softbg border border-slate-200 hover:border-gold-500/50 transition-colors shadow-sm">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-onyx text-gold-500 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-bold text-gold-600 uppercase tracking-wider">Base & Domisili</span>
+                                <h3 class="font-serif font-bold text-lg text-onyx">Kota Mataram, NTB</h3>
+                                <p class="text-xs text-slate-500 mt-1">Siap bertugas untuk project lokal maupun luar kota.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-900 text-white border border-gold-500/30 shadow-xl relative overflow-hidden">
+                        <span class="text-xs font-bold text-gold-400 uppercase tracking-wider">Spesialisasi</span>
+                        <p class="font-serif text-lg font-semibold mt-1 text-slate-100">
+                            "Public Relations, Wedding & Event Coordination, Logistics & Crowd Control"
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE & PROJECTS SECTION -->
+    <section id="experience" class="py-20 bg-softbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-600 bg-gold-500/10 px-3 py-1 rounded-full">Portfolio & Experience</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-onyx">Pengalaman Operasional & Acara</h2>
+                <p class="text-slate-600 text-sm sm:text-base">Rekam jejak eksekusi acara profesional, manajemen tenant, dan koordinasi massa.</p>
+                <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex justify-center gap-2 mb-10 flex-wrap" id="portfolio-filters">
+                <button type="button" class="filter-btn active px-5 py-2 rounded-full text-xs font-bold tracking-wider uppercase border transition-all bg-onyx text-gold-400 border-onyx shadow-md" data-filter="all" aria-pressed="true">
+                    All Projects
+                </button>
+                <button type="button" class="filter-btn px-5 py-2 rounded-full text-xs font-bold tracking-wider uppercase border transition-all bg-white text-slate-600 border-slate-200 hover:bg-slate-100" data-filter="wedding" aria-pressed="false">
+                    Wedding & Event
+                </button>
+                <button type="button" class="filter-btn px-5 py-2 rounded-full text-xs font-bold tracking-wider uppercase border transition-all bg-white text-slate-600 border-slate-200 hover:bg-slate-100" data-filter="umkm" aria-pressed="false">
+                    UMKM & Festival
+                </button>
+            </div>
+
+            <!-- Project Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- CARD 1: EO & WO -->
+                <div class="project-card group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-gold-500 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="wedding">
+                    <div>
+                        <div class="h-48 bg-gradient-to-br from-onyx via-slate-800 to-slate-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                            <div class="flex justify-between items-start relative z-10">
+                                <span class="px-3 py-1 bg-gold-500 text-onyx text-[10px] font-bold uppercase tracking-wider rounded-full">Freelance</span>
+                                <span class="text-xs text-gold-300 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Mei 2026 – Sekarang</span>
+                            </div>
+                            <div class="relative z-10">
+                                <span class="text-xs text-slate-300 uppercase tracking-widest font-semibold block mb-1">Mataram, NTB</span>
+                                <h3 class="font-serif text-xl font-bold text-white group-hover:text-gold-400 transition-colors">Event & Wedding Organizer</h3>
+                            </div>
+                        </div>
+
+                        <div class="p-6 space-y-4">
+                            <div class="flex items-center gap-2 text-xs text-gold-700 font-semibold uppercase tracking-wider">
+                                <i class="fa-solid fa-clipboard-check"></i> Event Coordinator
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 leading-relaxed">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Mengoordinasikan operasional acara dan pernikahan dari tahap persiapan, technical meeting, hingga penyusunan rundown.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Sinergi dengan vendor katering, dekorasi, dokumentasi, sound system, serta pengisi acara.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Menangani krisis dan kendala teknis secara cepat di lapangan tanpa mengganggu acara.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 flex flex-wrap gap-1.5">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Rundown Control</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Vendor Relation</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Time Management</span>
+                    </div>
+                </div>
+
+                <!-- CARD 2: Lentera Ramadhan -->
+                <div class="project-card group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-gold-500 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="umkm">
+                    <div>
+                        <div class="h-48 bg-gradient-to-br from-amber-900 via-onyx to-slate-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                            <div class="flex justify-between items-start relative z-10">
+                                <span class="px-3 py-1 bg-amber-500 text-onyx text-[10px] font-bold uppercase tracking-wider rounded-full">Panitia Pelaksana</span>
+                                <span class="text-xs text-amber-200 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Maret 2026</span>
+                            </div>
+                            <div class="relative z-10">
+                                <span class="text-xs text-slate-300 uppercase tracking-widest font-semibold block mb-1">Mataram, NTB</span>
+                                <h3 class="font-serif text-xl font-bold text-white group-hover:text-gold-400 transition-colors">Lentera Ramadhan Festival</h3>
+                            </div>
+                        </div>
+
+                        <div class="p-6 space-y-4">
+                            <div class="flex items-center gap-2 text-xs text-gold-700 font-semibold uppercase tracking-wider">
+                                <i class="fa-solid fa-store"></i> Tim Pendataan &amp; Koordinasi UMKM
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 leading-relaxed">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Mengoordinasikan dan mendampingi 20 tenant UMKM dari total 80 peserta pameran selama acara.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Verifikasi kehadiran, pemantauan ketertiban stand, serta pendataan laporan pendapatan harian UMKM.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Memberikan solusi cepat atas permasalahan fasilitas dan operasional tenant di lokasi.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 flex flex-wrap gap-1.5">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Tenant Mgmt</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Data Verification</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Problem Solving</span>
+                    </div>
+                </div>
+
+                <!-- CARD 3: NTB Bermunajat -->
+                <div class="project-card group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-gold-500 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col justify-between" data-category="umkm">
+                    <div>
+                        <div class="h-48 bg-gradient-to-br from-slate-800 via-onyx to-gold-900 p-6 flex flex-col justify-between relative overflow-hidden">
+                            <div class="flex justify-between items-start relative z-10">
+                                <span class="px-3 py-1 bg-gold-500 text-onyx text-[10px] font-bold uppercase tracking-wider rounded-full">Panitia Pelaksana</span>
+                                <span class="text-xs text-gold-200 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Desember 2025</span>
+                            </div>
+                            <div class="relative z-10">
+                                <span class="text-xs text-slate-300 uppercase tracking-widest font-semibold block mb-1">Mataram, NTB</span>
+                                <h3 class="font-serif text-xl font-bold text-white group-hover:text-gold-400 transition-colors">NTB Bermunajat Event</h3>
+                            </div>
+                        </div>
+
+                        <div class="p-6 space-y-4">
+                            <div class="flex items-center gap-2 text-xs text-gold-700 font-semibold uppercase tracking-wider">
+                                <i class="fa-solid fa-ticket"></i> Tim Operasional &amp; Distribusi
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 leading-relaxed">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Mengelola sistem pembagian kupon gratis kepada ribuan pengunjung secara tertib dan terstruktur.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Melakukan verifikasi dan validasi tanda kehadiran resmi penerima kupon guna mencegah duplikasi.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-angle-right text-gold-500 text-sm mt-0.5 shrink-0"></i>
+                                    <span>Menjaga kondusivitas area kegiatan dan manajemen arus antrean pengunjung.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 flex flex-wrap gap-1.5">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Crowd Control</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Distribution System</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-[10px] font-medium">Logistics</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-600 bg-gold-500/10 px-3 py-1 rounded-full">Capabilities</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-onyx">Keahlian & Kompetensi Utama</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="p-8 rounded-3xl bg-softbg border border-slate-200 space-y-6 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-2xl bg-onyx text-gold-500 flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-users-gear"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-xl text-onyx">Public Relations & Event Leadership</h3>
+                            <p class="text-xs text-slate-500">Kompetensi manajemen interpersonal dan acara</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2.5 pt-2">
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-bullhorn text-gold-500"></i> Public Speaking
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-handshake text-gold-500"></i> Vendor Coordination
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-clock-rotate-left text-gold-500"></i> Rundown & Time Control
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-user-shield text-gold-500"></i> Crisis Management
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-people-group text-gold-500"></i> Team Leadership
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-lightbulb text-gold-500"></i> Problem Solving
+                        </span>
+                    </div>
+                </div>
+
+                <div class="p-8 rounded-3xl bg-softbg border border-slate-200 space-y-6 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-2xl bg-onyx text-gold-500 flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-serif font-bold text-xl text-onyx">Technical & Digital Expertise</h3>
+                            <p class="text-xs text-slate-500">Penguasaan aplikasi dan analisis pendukung</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2.5 pt-2">
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-brands fa-microsoft text-gold-500"></i> Microsoft Office (Word, Excel, PPT)
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-video text-gold-500"></i> Video Editing
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-chart-line text-gold-500"></i> Financial Analysis Sederhana
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-file-invoice text-gold-500"></i> Data & Income Reporting
+                        </span>
+                        <span class="px-4 py-2 rounded-xl bg-white border border-slate-200 text-onyx text-xs font-semibold shadow-sm hover:border-gold-500 hover:text-gold-600 transition-colors flex items-center gap-2">
+                            <i class="fa-solid fa-passport text-gold-500"></i> Diplomacy & IR Studies
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 bg-onyx text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-400 bg-gold-500/10 px-3 py-1 rounded-full border border-gold-500/20">Let's Connect</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">Hubungi Saya Untuk Kerjasama</h2>
+                <p class="text-slate-400 text-sm">Siap berdiskusi untuk proyek event, koordinasi operasional, maupun konsultasi PR.</p>
+                <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    
+                    <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">WhatsApp / Telepon</span>
+                            <a href="https://wa.me/6281930790012" target="_blank" rel="noopener noreferrer" class="block text-base font-semibold text-white hover:text-gold-400 transition-colors">
+                                +62 819-3079-0012
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Email Resmi</span>
+                            <a href="mailto:lalustar88@gmail.com" class="block text-base font-semibold text-white hover:text-gold-400 transition-colors">
+                                lalustar88@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Instagram</span>
+                            <a href="https://instagram.com/l.star.boyy" target="_blank" rel="noopener noreferrer" class="block text-base font-semibold text-white hover:text-gold-400 transition-colors">
+                                @l.star.boyy
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Lokasi</span>
+                            <p class="text-base font-semibold text-white">Mataram, Kota Mataram, NTB, 83124</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="lg:col-span-7 bg-slate-900/80 p-8 rounded-3xl border border-slate-800 relative shadow-2xl">
+                    <form id="contact-form" class="space-y-5">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label for="contact-name" class="block text-xs font-medium text-slate-300 uppercase tracking-wider mb-2">Nama Lengkap</label>
+                                <input id="contact-name" name="name" type="text" required autocomplete="name" placeholder="Masukkan nama Anda" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-slate-600">
+                            </div>
+                            <div>
+                                <label for="contact-email" class="block text-xs font-medium text-slate-300 uppercase tracking-wider mb-2">Alamat Email</label>
+                                <input id="contact-email" name="email" type="email" required autocomplete="email" placeholder="nama@email.com" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-slate-600">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="contact-subject" class="block text-xs font-medium text-slate-300 uppercase tracking-wider mb-2">Subjek / Jenis Project</label>
+                            <input id="contact-subject" name="subject" type="text" required placeholder="Contoh: Event Coordinator / Wedding Organizer" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-slate-600">
+                        </div>
+
+                        <div>
+                            <label for="contact-message" class="block text-xs font-medium text-slate-300 uppercase tracking-wider mb-2">Pesan Anda</label>
+                            <textarea id="contact-message" name="message" rows="4" required placeholder="Tuliskan detail acara atau pesan kerja sama Anda..." class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-slate-600"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-3.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-onyx font-bold text-sm tracking-wider uppercase transition-all shadow-lg">
+                            Kirim Pesan <i class="fa-solid fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+
+                    <div id="form-response" class="hidden mt-4 p-4 rounded-xl bg-emerald-500/20 border border-emerald-500/50 text-emerald-300 text-xs text-center" role="status" aria-live="polite">
+                        Terima kasih! Aplikasi email Anda akan terbuka dengan pesan yang sudah terisi — tinggal tekan Kirim. Jika tidak terbuka, silakan hubungi saya lewat WhatsApp atau email di samping.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-900 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <span class="font-serif text-white font-bold text-sm">LALU MAS STAR PILDA</span>
+                <span class="text-slate-600">•</span>
+                <span>PR Specialist &amp; Event Coordinator</span>
+            </div>
+            <p>© <span id="current-year">2026</span> Lalu Mas Star Pilda. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript interaktif (menu mobile, filter portofolio, form kontak) -->
+    <script src="js/main.js"></script>
+</body>
+</html>
